@@ -15,7 +15,7 @@ header{text-align:center;margin-bottom:26px}
 .badge{display:inline-block;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--gold);border:1px solid #fbbf2455;background:#fbbf2412;padding:7px 14px;border-radius:999px;line-height:1.4}
 h1{font-size:clamp(40px,10vw,66px);font-weight:800;margin:16px 0 10px;letter-spacing:-.02em;line-height:1.05}
 h1 span{background:linear-gradient(90deg,var(--a),var(--b) 60%,var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
-.sub{max-width:620px;margin:0 auto;color:var(--mute);line-height:1.6;font-size:15px}
+.sub{max-width:100%;margin:0 auto;color:var(--mute);line-height:1.6;font-size:13px;text-wrap:balance}
 .chips{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:20px}
 .chip{background:#ffffff08;border:1px solid var(--line);border-radius:14px;padding:10px 16px;min-width:140px;flex:1 1 140px;max-width:220px}
 .chip b{display:block;font-size:20px;color:var(--gold)}
@@ -66,6 +66,7 @@ h1 span{background:linear-gradient(90deg,var(--a),var(--b) 60%,var(--gold));-web
 .how{margin-top:16px}
 .how ol{padding-left:20px;display:grid;gap:10px;color:#cfc4ee;line-height:1.55;font-size:14px}
 .how b{color:var(--text)}
+.how code{font-family:ui-monospace,"Cascadia Code",Consolas,monospace;font-size:.92em;color:var(--gold);background:#fbbf2412;border:1px solid #fbbf2433;padding:2px 7px;border-radius:6px;white-space:nowrap}
 footer{text-align:center;color:var(--mute);font-size:12px;margin-top:22px;line-height:1.7}
 
 @media(max-width:480px){
