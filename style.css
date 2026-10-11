@@ -75,8 +75,9 @@ footer{text-align:center;color:var(--mute);font-size:12px;margin-top:22px;line-h
     .result{gap:16px}
     .digit{width:96px;height:96px;font-size:62px;border-radius:20px}
     .conf{font-size:34px}
-    .chips{gap:8px;flex-wrap:nowrap}
-    .chip{min-width:0;flex:1 1 0;padding:9px 6px;border-radius:12px}
-    .chip b{font-size:15px}
-    .chip small{font-size:10.5px}
+    .chips{gap:8px;flex-wrap:nowrap;align-items:stretch}
+    .chip{min-width:0;flex:1 1 0;padding:9px 6px;border-radius:12px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center}
+    .chip:nth-child(2){flex:1.5 1 0}
+    .chip b{font-size:14px;white-space:nowrap}
+    .chip small{font-size:10.5px;line-height:1.3}
 }
